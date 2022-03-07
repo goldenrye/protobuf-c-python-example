@@ -1,0 +1,10 @@
+
+# generate protobuf for c and python
+make clean
+make
+
+# sensor is a c program producing the sensor.data binary
+./sensor
+
+# sensor.py is a python program consuming the sensor.data
+python3 sensor.py
